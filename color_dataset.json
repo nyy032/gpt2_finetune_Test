@@ -1,0 +1,317 @@
+[
+  {
+    "context": "this color is",
+    "question": "red",
+    "answer": {
+      "hue": 346,
+      "saturation": 96,
+      "value": 93
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "maroon",
+    "answer": {
+      "hue": 346,
+      "saturation": 83,
+      "value": 76
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "scarlet",
+    "answer": {
+      "hue": 350,
+      "saturation": 94,
+      "value": 99
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "orange",
+    "answer": {
+      "hue": 25,
+      "saturation": 80,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "green-yellow",
+    "answer": {
+      "hue": 54,
+      "saturation": 44,
+      "value": 95
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "olive green",
+    "answer": {
+      "hue": 59,
+      "saturation": 49,
+      "value": 71
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "green",
+    "answer": {
+      "hue": 135,
+      "saturation": 65,
+      "value": 65
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "forest green",
+    "answer": {
+      "hue": 140,
+      "saturation": 43,
+      "value": 65
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "aquamarine",
+    "answer": {
+      "hue": 186,
+      "saturation": 36,
+      "value": 91
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "sky blue",
+    "answer": {
+      "hue": 190,
+      "saturation": 50,
+      "value": 92
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "middle blue",
+    "answer": {
+      "hue": 190,
+      "saturation": 45,
+      "value": 90
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "blue-green",
+    "answer": {
+      "hue": 191,
+      "saturation": 100,
+      "value": 72
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "cerulean",
+    "answer": {
+      "hue": 193,
+      "saturation": 99,
+      "value": 83
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "green-blue",
+    "answer": {
+      "hue": 204,
+      "saturation": 80,
+      "value": 78
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "navy blue",
+    "answer": {
+      "hue": 210,
+      "saturation": 100,
+      "value": 80
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "denim",
+    "answer": {
+      "hue": 213,
+      "saturation": 89,
+      "value": 74
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "blue",
+    "answer": {
+      "hue": 216,
+      "saturation": 100,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "bluetiful",
+    "answer": {
+      "hue": 224,
+      "saturation": 74,
+      "value": 91
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "violet-blue",
+    "answer": {
+      "hue": 245,
+      "saturation": 45,
+      "value": 78
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "blue-violet",
+    "answer": {
+      "hue": 249,
+      "saturation": 53,
+      "value": 72
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "black",
+    "answer": {
+      "hue": 0,
+      "saturation": 0,
+      "value": 0
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "white",
+    "answer": {
+      "hue": 0,
+      "saturation": 0,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "gray",
+    "answer": {
+      "hue": 0,
+      "saturation": 0,
+      "value": 50
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "brown",
+    "answer": {
+      "hue": 0,
+      "saturation": 75,
+      "value": 65
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "yellow",
+    "answer": {
+      "hue": 60,
+      "saturation": 100,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "khaki",
+    "answer": {
+      "hue": 58,
+      "saturation": 91,
+      "value": 43
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "mint",
+    "answer": {
+      "hue": 180,
+      "saturation": 100,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "skyblue",
+    "answer": {
+      "hue": 203,
+      "saturation": 46,
+      "value": 98
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "purple",
+    "answer": {
+      "hue": 300,
+      "saturation": 100,
+      "value": 50
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "pink",
+    "answer": {
+      "hue": 330,
+      "saturation": 59,
+      "value": 100
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "beige",
+    "answer": {
+      "hue": 36,
+      "saturation": 79,
+      "value": 77
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "pink flamingo",
+    "answer": {
+      "hue": 300,
+      "saturation": 54,
+      "value": 99
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "red-violet",
+    "answer": {
+      "hue": 324,
+      "saturation": 73,
+      "value": 73
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "orchid",
+    "answer": {
+      "hue": 314,
+      "saturation": 31,
+      "value": 89
+    }
+  },
+  {
+    "context": "this color is",
+    "question": "plum",
+    "answer": {
+      "hue": 314,
+      "saturation": 65,
+      "value": 56
+    }
+  }
+]

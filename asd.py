@@ -1,4 +1,4 @@
-import torch
+""" import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
@@ -30,7 +30,6 @@ color_data = {
     "white": (0, 0, 100),
     "gray": (0, 0, 50),
     "brown": (0, 75, 65),
-    "orange": (34, 100, 100),
     "yellow": (60, 100, 100),
     "khaki": (58, 91, 43),
     "mint": (180, 100, 100),
@@ -48,12 +47,65 @@ with open("output.txt", "w") as file:
     for key1, value1 in color_data.items():
         for key2, value2 in color_data.items():
             #output_line = '{{"input": "{} top and {} bottom", "output": "{}, {}"}},\n'.format(key1, key2, value1, value2)
-            output_line = '{{"context": "{} is {} and {} is {}", "question": "{} top and {} bottom", "answer": "{}, {}" }},\n'.format(key1, value1, key2, value2, key1, key2, value1, value2)
+            output_line = '{{"question": "{} top and {} bottom", "answer": "{}, {}" }},\n'.format(key1, key2, value1, value2)
             file.write(output_line)
 
 print("파일이 생성되었습니다.")
 
+ """
 
+import csv
+
+# 색상 데이터를 사전 형태로 정의
+colors = {
+    "red": (0, 100, 100),
+    "maroon": (346, 83, 76),
+    "scarlet": (350, 94, 99),
+    "orange": (25, 80, 100),
+    "green-yellow": (54, 44, 95),
+    "olive green": (59, 49, 71),
+    "green": (135, 65, 65),
+    "forest green": (140, 43, 65),
+    "aquamarine": (186, 36, 91),
+    "sky blue": (190, 50, 92),
+    "middle blue": (190, 45, 90),
+    "blue-green": (191, 100, 72),
+    "cerulean": (193, 99, 83),
+    "green-blue": (204, 80, 78),
+    "navy blue": (210, 100, 80),
+    "denim": (213, 89, 74),
+    "blue": (216, 100, 100),
+    "bluetiful": (224, 74, 91),
+    "violet-blue": (245, 45, 78),
+    "blue-violet": (249, 53, 72),
+    "black": (0, 0, 0),
+    "white": (0, 0, 100),
+    "gray": (0, 0, 50),
+    "brown": (0, 75, 65),
+    "yellow": (60, 100, 100),
+    "khaki": (58, 91, 43),
+    "mint": (180, 100, 100),
+    "skyblue": (203, 46, 98),
+    "purple": (300, 100, 50),
+    "pink": (330, 59, 100),
+    "beige": (36, 79, 77),
+    "pink flamingo": (300, 54, 99),
+    "red-violet": (324, 73, 73),
+    "orchid": (314, 31, 89),
+    "plum": (314, 65, 56),
+}
+
+# CSV 파일을 쓰기로 열기
+with open('colors.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    # CSV의 첫 행으로 헤더(컬럼 이름) 작성
+    writer.writerow(['Color Name', 'Hue', 'Saturation', 'Value'])
+    
+    # 색상 데이터를 이용하여 CSV 파일에 행 추가
+    for color_name, hsv_values in colors.items():
+        writer.writerow([color_name] + list(hsv_values))
+
+print("CSV 파일 생성 완료.")
 #"cadet blue": (219, 13, 76),
     #"brick red": (352, 77, 78),
     #"english vermilion": (358, 65, 80),

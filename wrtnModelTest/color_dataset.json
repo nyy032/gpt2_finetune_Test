@@ -1,0 +1,110 @@
+[
+  {
+    "color_info": "red",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "bright red",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "dark red",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "light red",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "red like a tomato",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "red like a fire truck",
+    "hsv_value": [0, 100, 100]
+  },
+  {
+    "color_info": "maroon",
+    "hsv_value": [346, 83, 76]
+  },
+  {
+    "color_info": "scarlet",
+    "hsv_value": [350, 94, 99]
+  },
+  {
+    "color_info": "orange",
+    "hsv_value": [25, 80, 100]
+  },
+  {
+    "color_info": "green-yellow",
+    "hsv_value": [54, 44, 95]
+  },
+  {
+    "color_info": "green",
+    "hsv_value": [135, 65, 65]
+  },
+  {
+    "color_info": "aquamarine",
+    "hsv_value": [186, 36, 91]
+  },
+  {
+    "color_info": "sky blue",
+    "hsv_value": [190, 50, 92]
+  },
+  {
+    "color_info": "denim",
+    "hsv_value": [213, 89, 74]
+  },
+  {
+    "color_info": "blue",
+    "hsv_value": [216, 100, 100]
+  },
+  {
+    "color_info": "black",
+    "hsv_value": [0, 0, 0]
+  },
+  {
+    "color_info": "white",
+    "hsv_value": [0, 0, 100]
+  },
+  {
+    "color_info": "gray",
+    "hsv_value": [0, 0, 50]
+  },
+  {
+    "color_info": "brown",
+    "hsv_value": [0, 75, 65]
+  },
+  {
+    "color_info": "yellow",
+    "hsv_value": [60, 100, 100]
+  },
+  {
+    "color_info": "khaki",
+    "hsv_value": [58, 91, 43]
+  },
+  {
+    "color_info": "mint",
+    "hsv_value": [180, 100, 100]
+  },
+  {
+    "color_info": "skyblue",
+    "hsv_value": [203, 46, 98]
+  },
+  {
+    "color_info": "purple",
+    "hsv_value": [300, 100, 50]
+  },
+  {
+    "color_info": "pink",
+    "hsv_value": [330, 59, 100]
+  },
+  {
+    "color_info": "beige",
+    "hsv_value": [36, 79, 77]
+  },
+  {
+    "color_info": "plum",
+    "hsv_value": [314, 65, 56]
+  }
+]
