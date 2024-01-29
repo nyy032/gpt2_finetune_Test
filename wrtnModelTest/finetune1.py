@@ -57,7 +57,6 @@ class GPT2ForSequenceRegression(GPT2PreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
         self.num_labels = config.num_labels
-
         self.gpt2 = GPT2Model(config)
         self.dropout = nn.Dropout(0.1)  # 여기���서 원���는 드롭아웃 비율��� 설정하실 수 있습니다.
         self.regressor = nn.Linear(config.hidden_size, 3)
